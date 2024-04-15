@@ -1338,6 +1338,14 @@ en:
         user_api: "User API"
       yaxis: "Day"
       description: "API requests for regular API keys and user API keys."
+    consolidated_page_views_browser_detection:
+      title: "Consolidated Pageviews with Browser Detection (Experimental)"
+      xaxis:
+        page_view_anon_non_browser: "Likely crawler/bot"
+        page_view_anon_browser: "Likely anonymous user"
+        page_view_logged_in: "Logged in users"
+      yaxis: "Day"
+      description: "Pageviews for logged in users, anonymous users and crawlers. This experimental report ensures requests are coming from a real browser before counting them as an anonymous users."
     dau_by_mau:
       title: "DAU/MAU"
       xaxis: "Day"
