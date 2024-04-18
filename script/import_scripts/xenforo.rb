@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "mysql2"
+require "mysql2" # requirements
 
 begin
   require "php_serialize" # https://github.com/jqr/php-serialize
